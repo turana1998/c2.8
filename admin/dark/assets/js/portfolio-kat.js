@@ -15,22 +15,22 @@ function PortKatDelete(id){
             }
         });
 }
-// function KateqoriyaStatus(id)
-// {
-//     $.ajax({
-//         url:"../settings/code/port-kat-status.php",
-//         data:{ks:true,id:id},
-//         method:"POST",
-//         success:function (data){
-//             if(data){
-//                 console.log("true");
-//             }
-//             else{
-//                 console.log("false");
-//             }
-//         }
-//     })
-// }
+function KateqoriyaStatus(id)
+{
+    $.ajax({
+        url:"../settings/code/port-kat-status.php",
+        data:{ks:true,id:id},
+        method:"POST",
+        success:function (data){
+            if(data){
+                console.log("true");
+            }
+            else{
+                console.log("false");
+            }
+        }
+    })
+}
 
 function PageName(){
     let path=location.pathname;
