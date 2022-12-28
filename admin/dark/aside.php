@@ -103,6 +103,30 @@
                   </ul>
               </div>
           </li>
+          <li class="nav-item">
+              <a data-bs-toggle="collapse" href="#dashboardsExamples" class="nav-link text-white active"
+                 aria-controls="dashboardsExamples" role="button" aria-expanded="false">
+                  <i class="material-icons-round opacity-10">dashboard</i>
+                  <span class="nav-link-text ms-2 ps-1">Blog</span>
+              </a>
+              <div class="collapse  show " id="dashboardsExamples">
+                  <ul class="nav ">
+                      <li class="nav-item active">
+                          <a class="nav-link text-white " href="blog-kat-add.php">
+                              <span class="sidenav-mini-icon"> A </span>
+                              <span class="sidenav-normal  ms-2  ps-1"> Blog Kateqoriya Add </span>
+                          </a>
+                      </li>
+                      <li class="nav-item ">
+                          <a class="nav-link text-white " href="blog-kat-list.php">
+                              <span class="sidenav-mini-icon"> D </span>
+                              <span class="sidenav-normal  ms-2  ps-1"> Blog Kateqoriya List </span>
+                          </a>
+                      </li>
+
+                  </ul>
+              </div>
+          </li>
       </ul>
     </div>
   </aside>

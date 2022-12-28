@@ -13,5 +13,20 @@
       header("Location:port-kat-add.php?status=ok"):
       header("Location:port-kat-add.php?status=no");
   }
+    if(isset($_POST["port-kat-edit"]))
+    {
+        $column="
+          title=:title
+        ";
+        $where="where id=:id";
 
+        $array=[
+            "title"=>$_POST["title"],
+            "id"=>$_POST["id"]
+        ];
+
+        $CRUD->Update("portfolio_kat",$array,$where,$column)?
+            header("Location:port-kat-list.php?status=ok"):
+            header("Location:port-kat-list.php?status=no");
+    }
 ?>

@@ -2,8 +2,7 @@
 
 <!-- Aside -->
 <?php  require_once "header.php";require_once "aside.php";
-require_once "../settings/code/port-kat-add.php";
-require_once "../settings/code/port-kat-delete.php" ?>
+require_once "../settings/code/blog-kat-add.php";?>
 
 
 <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
@@ -21,7 +20,7 @@ require_once "../settings/code/port-kat-delete.php" ?>
                             <div class="card my-4">
                                 <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                                     <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                        <h6 class="text-white text-capitalize ps-3">Portfolio Catdddegory List</h6>
+                                        <h6 class="text-white text-capitalize ps-3">BLOG Catdddegory List</h6>
                                     </div>
                                 </div>
                                 <div id="message_kat" class="mt-4 mb-4"></div>
