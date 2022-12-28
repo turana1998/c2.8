@@ -1,10 +1,10 @@
 <?php
    class DBConnection extends PDO{
-        const host="localhost";
+        const host="localhost:3307 via TCP/IP";
         const dbname="c2.8N";
         const user="root";
         const pass="";
-        const port="";
+        const port="3307";
 
         public function __construct()
         {

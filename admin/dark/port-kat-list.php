@@ -27,6 +27,7 @@ require_once "../settings/code/port-kat-delete.php" ?>
                                 <div id="message_kat" class="mt-4 mb-4"></div>
                                 <div class="card-body px-0 pb-2">
                                     <div class="table-responsive p-0">
+                                        <div id="StatusMessage"></div>
                                         <table class="table align-items-center mb-0">
                                             <thead>
                                             <tr>
